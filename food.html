@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+        </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        img {
+            width: 200px;
+            height: 350px;
+        }
+        .btn:focus
+        {
+background-color: black;
+color: bisque;
+        }
+        .btn:hover{background-color: black;
+color: bisque;
+
+        }
+    </style>
+    <title>my food</title>
+</head>
+
+<body class="container-fluid">
+    <nav class="navbar bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand  aria--sm-hidden" href="#">Mail</a>
+            <a class="navbar-brand active " href="#">My Food</a>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">My Food</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end nav  -->
+<!-- grocery start -->
+    <div class="">
+
+        <div id="carouselExampleIndicators" class="carousel slide  " data-bs-ride="true">
+
+            <div class="carousel-inner  ">
+                <div class="carousel-item active">
+                    <div class="row row-cols-1 row-cols-lg-4  row-cols-sm-2  col-12 g-4">
+
+
+                        <div class="col">
+                            <div class="">
+                                <img src="./f645eefc3dba9ddb9b286d045027d3c6.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">the name of the meal </h5>
+                                    <p class="card-text text-muted">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+                                       
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col">
+                            <div class="">
+                                <img src="./2cf427ff858ce80432446c1ebb3bfda4.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">the name of the meal </h5>
+                                    <p class="card-text text-muted">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+                                       
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col">
+                            <div class="">
+                                <img src="./40f0a6971f4f53a9a02cdc6a8720f6a7.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">the name of the meal </h5>
+                                    <p class="card-text text-muted">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+                                       
+                                </div>
+                            </div>
+                        </div>
+
+                          <div class="col">
+                            <div class="">
+                                <img src="./442e9de0f783d535f95ef1e161f4ee91.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">the name of the meal </h5>
+                                    <p class="card-text text-muted">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+                                       
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col">
+                            <div class="">
+                                <img src="./5f5b86465c45d57d58d41a67fe3ccf75.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">the name of the meal </h5>
+                                    <p class="card-text text-muted">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+                                       
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col">
+                            <div class="">
+                                <img src="./8e7457680bff54675b859b14064ae907.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">the name of the meal </h5>
+                                    <p class="card-text text-muted">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+                                       
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="col">
+                            <div class="">
+                                <img src="./7635dacd3f54e33b556cfd1c4f2ebda9.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">the name of the meal </h5>
+                                    <p class="card-text text-muted">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+                                       
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="">
+                                <img src="./7723a486a48da60342a0086fba90c282.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">the name of the meal </h5>
+                                    <p class="card-text text-muted">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+                                       
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row row-cols-1 row-cols-sm-4 g-4">
+
+
+
+                        <div class="col">
+                            <div class="">
+                                <img src="./7723a486a48da60342a0086fba90c282.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">the name of the meal </h5>
+                                    <p class="card-text text-muted">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+                                       
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="">
+                                <img src="./7635dacd3f54e33b556cfd1c4f2ebda9.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">the name of the meal </h5>
+                                    <p class="card-text text-muted">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+                                       
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col">
+                            <div class="">
+                                <img src="./5f5b86465c45d57d58d41a67fe3ccf75.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">the name of the meal </h5>
+                                    <p class="card-text text-muted">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+                                       
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col">
+                            <div class="">
+                                <img src="./5f5b86465c45d57d58d41a67fe3ccf75.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">the name of the meal </h5>
+                                    <p class="card-text text-muted">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+                                       
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col">
+                            <div class="">
+                                <img src="./442e9de0f783d535f95ef1e161f4ee91.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">the name of the meal </h5>
+                                    <p class="card-text text-muted">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+                                       
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="">
+                                <img src="./f645eefc3dba9ddb9b286d045027d3c6.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">the name of the meal </h5>
+                                    <p class="card-text text-muted">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+                                       
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="">
+                                <img src="./7635dacd3f54e33b556cfd1c4f2ebda9.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">the name of the meal </h5>
+                                    <p class="card-text text-muted">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+                                       
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col">
+                            <div class="">
+                                <img src="./40f0a6971f4f53a9a02cdc6a8720f6a7.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">the name of the meal </h5>
+                                    <p class="card-text text-muted">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+                                       
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                </div>
+
+            </div>
+
+            <div class="carousel-item ">
+                <div class="row row-cols-1 row-cols-sm-4 g-4">
+
+
+                    <div class="col">
+                        <div class="">
+                            <img src="./f645eefc3dba9ddb9b286d045027d3c6.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">the name of the meal </h5>
+                                <p class="card-text text-muted">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+                                   
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col">
+                        <div class="">
+                            <img src="./2cf427ff858ce80432446c1ebb3bfda4.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">the name of the meal </h5>
+                                <p class="card-text text-muted">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+                                   
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col">
+                        <div class="">
+                            <img src="./40f0a6971f4f53a9a02cdc6a8720f6a7.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">the name of the meal </h5>
+                                <p class="card-text text-muted">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+                                   
+                            </div>
+                        </div>
+                    </div>
+
+                      <div class="col">
+                        <div class="">
+                            <img src="./442e9de0f783d535f95ef1e161f4ee91.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">the name of the meal </h5>
+                                <p class="card-text text-muted">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+                                   
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col">
+                        <div class="">
+                            <img src="./5f5b86465c45d57d58d41a67fe3ccf75.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">the name of the meal </h5>
+                                <p class="card-text text-muted">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+                                   
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col">
+                        <div class="">
+                            <img src="./5f5b86465c45d57d58d41a67fe3ccf75.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">the name of the meal </h5>
+                                <p class="card-text text-muted">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+                                   
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="col">
+                        <div class="">
+                            <img src="./7635dacd3f54e33b556cfd1c4f2ebda9.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">the name of the meal </h5>
+                                <p class="card-text text-muted">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+                                   
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="">
+                            <img src="./7723a486a48da60342a0086fba90c282.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">the name of the meal </h5>
+                                <p class="card-text text-muted">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+                                   
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
+
+           
+
+        </div>
+<!-- here is the buttons of crousel -->
+        <div class=" position-absolute top-200 start-50 me-5  py-3 " role="group" aria-label="Basic example">
+            <button type="button" class="btn  ms-4 active   " data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0" class="active btn btn-primary" aria-current="true" aria-label="Slide 1" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .90rem; ">1</button>
+            <button type="button" class="btn btn-" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1" aria-label="Slide 2" class="btn btn-primary" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .90rem;">2</button>
+            <button type="button" class="btn   me-sm-4 me-4" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2" aria-label="Slide 3 " class="btn btn-primary" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .90rem;">3</button>
+        <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+         </div>
+
+  
+
+
+         <!-- chef card -->
+        <div class=" my-5  py-4 ">
+            <div class="row row-cols-1 row-cols-sm-2 g-4 justify-content-center">
+                <div class="col ">
+                    <div class="">
+                        <h6 class="card-title text-center my-3 ">About Me . The Food Man .!</h6>
+                        <img src="./b8396ae14a3b9cb506668dabdd462cfd.jpg"
+                            class="card-img-top img-thumbnail" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title text-center ">Iam Who iam!</h6>
+                            <p class="card-text text-muted text-center">  with passion for real good food</p>
+                            <p class="card-text text-muted text-center"><small>Paragraphs are the building blocks of papers.
+                                 Many students define paragraphs in terms of length: a paragraph is a group of at least five
+                                  sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas
+                                   </small> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+
+
+
+
+
+        <footer class="col-sm-4   order-sm-1 order-3  my-sm-0 my-5">
+            <p class="h4">Footer</p>
+            <p class=" text-muted">
+             Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas
+            </p>
+        </footer>
+
+
+
+
+
+        <div class="col-sm-3 text-center order-sm-2 order-1">
+
+            <p class="h5"> PLOGE POSTS</p>
+
+
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-sm-3">
+                    <img src="./8e7457680bff54675b859b14064ae907.jpg" class="img-fluid rounded-start  text-center" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      
+                      <p class="card-text" style="font-size: 10px;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text" style="font-size: 10px;" ><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            
+              <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-sm-3">
+                    <img src="./9c0379a25b400957578e43ce403202f6.jpg" class="img-fluid rounded-start  text-center" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      
+                      <p class="card-text" style="font-size: 10px;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text" style="font-size: 10px;" ><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+        </div>
+
+
+
+        <div class="col-sm-5  order-sm-3 order-2">
+            <p class="h5"> POPULER TAGES</p>
+            <div class="col-sm-7 ms-5">
+                <button type="button" class="btn btn-dark "
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .50rem;">Travel</button>
+                <button type="button" class="btn btn-secondary"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .50rem;">New yourk</button>
+                <button type="button" class="btn btn-secondary"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .50rem;">texas</button>
+                <button type="button" class="btn btn-secondary"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .50rem;">frence</button>
+                <button type="button" class="btn btn-secondary"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .50rem;">ideas</button>
+                <button type="button" class="btn btn-secondary"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .50rem;">fish</button>
+                <button type="button" class="btn btn-secondary"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .50rem;">duck</button>
+                <button type="button" class="btn btn-secondary"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .50rem;">maet
+                    thingg</button>
+                <button type="button" class="btn btn-secondary"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .50rem;"> fried</button>
+                    <button type="button" class="btn btn-secondary"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .50rem;">ideas</button>
+                    <button type="button" class="btn btn-secondary"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .50rem;">ideas</button>
+                    <button type="button" class="btn btn-secondary"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .50rem;">ideas</button>
+                    <button type="button" class="btn btn-secondary"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .50rem;">ideas</button>
+                    <button type="button" class="btn btn-secondary"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .50rem;">ideas</button>
+                    <button type="button" class="btn btn-secondary"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .50rem;">ideas</button>
+                    <button type="button" class="btn btn-secondary"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .50rem;">ideas</button>
+                    <button type="button" class="btn btn-secondary"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .50rem;">ideas</button>
+                    <button type="button" class="btn btn-secondary"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .50rem;">ideas</button>
+                    <button type="button" class="btn btn-secondary"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .50rem;">ideas</button>
+
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
